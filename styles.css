@@ -1,0 +1,71 @@
+* {
+    text-align: center;
+}
+
+body {
+    background: url(road.jpg);
+    background-size: cover;
+    
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+div.background {
+    background-color: url(road.jpg) repeat;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 5px solid black;
+    opacity: 0.75;
+    margin-top: 250px;;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#save-btn {
+    background-color: darkgreen;
+    transition: transform 0.2s ease-in-out 0ms;
+}
+
+#increment-btn {
+    background-color: darkred;
+    transition: transform 0.2s ease-in-out 0ms;
+}
+
+p {
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+#save-btn:active, #increment-btn:active {
+    transform: scale(1.25);
+}
